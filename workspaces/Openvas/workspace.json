@@ -2,7 +2,7 @@
   "friendly_name": "OpenVAS",
   "image_src": "openvas-logo.webp",
   "description": "OpenVAS is an open-source tool for scanning and identifying security vulnerabilities in networked systems, aiding in risk management and remediation.",
-  "name": "bukshee/bloodhound-kasm:latest",
+  "name": "greenbone/openvas-scanner:latest",
   "run_config": {
     "hostname": "kasm"
   },
