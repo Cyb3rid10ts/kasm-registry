@@ -18,7 +18,9 @@
     "hostname": "kasm"
   },
   "compatibility": [
-    "1.16.x"
+    "1.16.x",
+    "1.15.x",
+    "1.14.x"
   ],
   "architecture": [
     "amd64"
