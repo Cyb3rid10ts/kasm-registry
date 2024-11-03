@@ -17,21 +17,13 @@
   "run_config": {
     "hostname": "kasm"
   },
-  "exec_config": {
-    "go": {
-      "cmd": "bash -c '/dockerstartup/custom_startup.sh --go --url \"$KASM_URL\"'"
-    },
-    "assign": {
-      "cmd": "bash -c '/dockerstartup/custom_startup.sh --assign --url \"$KASM_URL\"'"
-    }
-  },
+  "compatibility": [
+    "1.15.x"
+    "1.14.x"
+    "1.13.x"
+
+  ],
   "architecture": [
     "amd64"
-  ],
-  "compatibility": [
-    "1.13.x",
-    "1.14.x", 
-    "1.15.x"
-  ],
-  "uncompressed_size_mb": 2170
+  ]
 }
